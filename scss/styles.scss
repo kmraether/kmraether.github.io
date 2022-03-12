@@ -32,17 +32,18 @@
 */
 .avatar {
     display: block;
-    border-radius: 200px;
+    border-radius: 400px;
     box-sizing: border-box;
     background-color: #DDD;
     border: 5px solid #cfd8dc;
 }
 
 img {
-    height: 200px;
-    width: 200px
+    height: 400px;
+    width: 400px
+    margin-left: auto;
+    margin-right: auto;
 }
-
 /*
     ------------------------
     ----- 1. Variables -----
