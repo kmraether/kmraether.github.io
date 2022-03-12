@@ -450,7 +450,7 @@ footer {
 */
 
 #about {
-    padding: 50px 15px;
+    padding: 10px 15px;
     border-bottom: 1px solid $border;
 
     h2 {
@@ -464,15 +464,15 @@ footer {
 
     .avatar {
     display: block;
-    border-radius: 400px;
+    border-radius: 300px;
     box-sizing: border-box;
     background-color: #DDD;
     border: 5px solid #cfd8dc;
     }
 
     img {
-        height: 350px;
-        width: 350px
+        height: 300px;
+        width: 300px
     }
 }
 
