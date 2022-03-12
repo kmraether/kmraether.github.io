@@ -924,6 +924,13 @@ footer {
 
     }
 
+    #field-experience-timeline {
+        &:before, &:after {
+            left: 23px;
+        }
+
+    }
+
     .vtimeline-date {
         width: auto;
         text-align: left;
