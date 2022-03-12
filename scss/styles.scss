@@ -129,39 +129,6 @@ body {
             content: none;
         }
     }
-    #field-experience-timeline {
-        > div {
-            background: $background;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid $border;
-
-            h3 {
-                font-size: 1.5em;
-                font-weight: 300;
-                color: $heading;
-                display: inline-block;
-                margin: 0;
-            }
-
-            h4 {
-                font-size: 1.2em;
-                font-weight: 300;
-                color: #7e8890;
-                margin: 0 0 15px 0;
-            }
-
-            p {
-                color: $text;
-                font-size: 0.9em;
-                margin: 0;
-            }
-        }
-
-        &:before, &:after {
-            content: none;
-        }
-    }
 }
 
 @keyframes dropHeader {
@@ -538,46 +505,6 @@ footer {
     }
 }
 
-#field-experience {
-    padding: 50px 15px;
-    text-align: center;
-    border-bottom: 1px solid $border;
-
-    h2 {
-        color: $heading;
-    }
-}
-
-#field-experience-timeline {
-    margin: 30px auto 0 auto;
-    position: relative;
-    max-width: 1000px;
-
-    &:before {
-        position: absolute;
-        content: '';
-        top: 0;
-        bottom: 0;
-        left: 303px;
-        right: auto;
-        height: 100%;
-        width: 3px;
-        background: $base-color;
-        z-index: 0;
-    }
-
-    &:after {
-        position: absolute;
-        content: '';
-        width: 3px;
-        height: 40px;
-        background: $base-color;
-        background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
-        top: 100%;
-        left: 303px;
-    }
-}
-
 .vtimeline-content {
     margin-left: 350px;
     background: #fff;
@@ -918,13 +845,6 @@ footer {
 @media only screen and (max-width: 750px) {
 
     #experience-timeline {
-        &:before, &:after {
-            left: 23px;
-        }
-
-    }
-
-    #field-experience-timeline {
         &:before, &:after {
             left: 23px;
         }
