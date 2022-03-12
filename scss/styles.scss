@@ -30,18 +30,7 @@
 /*
     Custom
 */
-.avatar {
-    display: block;
-    border-radius: 400px;
-    box-sizing: border-box;
-    background-color: #DDD;
-    border: 5px solid #cfd8dc;
-}
 
-img {
-    height: 400px;
-    width: 400px
-}
 /*
     ------------------------
     ----- 1. Variables -----
@@ -471,6 +460,18 @@ footer {
     p {
         color: $text;
         margin: 0;
+    }
+    .avatar {
+    display: block;
+    border-radius: 400px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #cfd8dc;
+    }
+
+    img {
+        height: 400px;
+        width: 400px
     }
 }
 
